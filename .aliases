@@ -18,6 +18,9 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias -- -='cd -'
 
+# Shortcuts
+alias cyberpanelupdate='sudo su - -c "sh <(curl https://raw.githubusercontent.com/usmannasir/cyberpanel/stable/preUpgrade.sh || wget -O - https://raw.githubusercontent.com/usmannasir/cyberpanel/stable/preUpgrade.sh)"'
+
 # IP Addresses
 alias remoteip='dig +short -4 myip.opendns.com @resolver1.opendns.com'
 alias remoteip6='dig +short -6 myip.opendns.com AAAA @resolver1.opendns.com'
